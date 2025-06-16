@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #045252e5;
+    align-self: hover;
+    opacity:10sec;
+    font-size: 26px;
+}
+.footer-column p {
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #e5ece2bc;
+  color: #dce4e9;
+}
+
+.footer input[type="email"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+.footer button {
+  padding: 10px 20px;
+  background-color: #141414;
+  border: radius 4px; ;
+  color: rgb(222, 168, 168);
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.footer a:hover, .footer button:hover {
+  opacity: 0.1;
+  color: #dce4e9;
+}
+.fa-brands {
+    font-size: 17.5px;
+    margin: 0 9.8px;
+    
+}
+
+
+.horiLineUp {
+    margin-bottom: -7px;
+    margin-top: 6.3px;
+    height: 0.07px;
+    box-shadow: 0 1px 0 rgba(230, 225, 225, 0.2);    
+}
+
+.para {
+    font-size: 20px;
+    color: #ede0e0;
+    margin-top: 13.8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.myBtn {
+    background-color: #0bdcdc2a;
+    padding: 8px 20px;
+    color: #ede7e7;
+    font-weight:bold;
+    margin-top: 11px;
+    border: none;
+    font-size: 20px;
+}
+
+h6 {
+    margin-top: -2px;
+    padding-bottom: 2px;
+}
+
+.horiLine {
+    margin-bottom: 10px;
+    margin-top: -4.3px;
+    height: 0.07px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.container {
+     padding-bottom: 2px;
+  
+  position: relative;
+  top: 300px;
+  animation: slideDown 2s ease forwards;
+}
+
+@keyframes slideDown {
+  to {
+    top: 0;
+  }
+}
+.copyright {
+   color: #dce4e9;
+
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  text-align: center;
+  padding: 20px;
+  color: #dce4e9;
+  font-size: 12px;
+   font-weight: bold;
+}
+
+@media (max-width: 767.5px){
+    h6 {
+        margin-top: 35px;
+    }
+    .para {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 767.5px){
+    .horiLineUp {
+        display: none;
+        font-weight: bold;
+    
+    }
+}
